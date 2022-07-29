@@ -41,6 +41,7 @@ int error_exit(void)
  * Return: 0 is true 1 if false
 */
 
+/**
 int check_number(char *str)
 {
 	while (*str != '\0')
@@ -55,10 +56,10 @@ int check_number(char *str)
 /**
  * _length - get the length of strings
  *
- * @str: string to get length of
+ * string to get length of
  *
  * Return: length of string
-*/
+*
 
 int _length(char *str)
 {
@@ -68,5 +69,7 @@ int _length(char *str)
 		i++;
 	return (i);
 }
+*/
+
 
 #endif
